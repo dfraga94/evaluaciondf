@@ -6,5 +6,6 @@ import ec.edu.itsqmet.dto.BirdCategoryDTO;
 
 public interface IBirdCategoryServices {
 
-	 List<BirdCategoryDTO> getAllBirdCategory();
+	
+	 List<BirdCategoryDTO> getAll();
 }
